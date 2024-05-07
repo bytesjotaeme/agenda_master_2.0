@@ -1,0 +1,27 @@
+/* Estilos CSS personalizados para la agenda */
+.agenda-container {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 20px;
+}
+
+.contact-card {
+  background-color: #fff; /* Color de fondo de las tarjetas de contacto */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-card h5 {
+  margin-bottom: 10px;
+}
+
+.contact-card .btn-danger {
+  background-color: #dc3545; /* Color de fondo del botón Eliminar */
+  border-color: #dc3545; /* Color del borde del botón Eliminar */
+}
+
+.contact-card .btn-danger:hover {
+  background-color: #c82333; /* Color de fondo del botón Eliminar al pasar el ratón */
+  border-color: #bd2130; /* Color del borde del botón Eliminar al pasar el ratón */
+}
